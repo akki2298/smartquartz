@@ -21,8 +21,7 @@ import com.akshay.smartquartz.R;
 import com.akshay.smartquartz.Utility.Constant;
 
 
-public class DashboardActivity extends AppCompatActivity
-        implements NavigationView.OnNavigationItemSelectedListener {
+public class DashboardActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
     boolean doubleBackToExitPressedOnce = false;
 
     Button btnDimond,btnGod,btnHeartShape,btnPicture,btnPremium,btnSimple,btnSmall;
