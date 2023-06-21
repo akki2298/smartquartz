@@ -58,7 +58,6 @@ public class DashboardActivity extends AppCompatActivity implements NavigationVi
         btnSimple=(Button)findViewById(R.id.dashbpard_btn_simple);
         btnSmall=(Button)findViewById(R.id.dashbpard_btn_small);
 
-
         btnDimond.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -87,6 +86,7 @@ public class DashboardActivity extends AppCompatActivity implements NavigationVi
                 startActivity(in);
             }
         });
+        
         btnPicture.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -96,6 +96,7 @@ public class DashboardActivity extends AppCompatActivity implements NavigationVi
                 startActivity(in);
             }
         });
+        
         btnPremium.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -105,6 +106,7 @@ public class DashboardActivity extends AppCompatActivity implements NavigationVi
                 startActivity(in);
             }
         });
+        
         btnSimple.setOnClickListener(new View.OnClickListener() {
             //added comment testing
             @Override
@@ -115,6 +117,7 @@ public class DashboardActivity extends AppCompatActivity implements NavigationVi
                 startActivity(in);
             }
         });
+        
         btnSmall.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -125,7 +128,6 @@ public class DashboardActivity extends AppCompatActivity implements NavigationVi
             }
         });
     }
-
 
     @Override
     public void onBackPressed() {
