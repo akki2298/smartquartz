@@ -106,6 +106,7 @@ public class DashboardActivity extends AppCompatActivity implements NavigationVi
             }
         });
         btnSimple.setOnClickListener(new View.OnClickListener() {
+            //added comment testing
             @Override
             public void onClick(View view) {
                 Intent in=new Intent(DashboardActivity.this,ClockTypeActivity.class);
