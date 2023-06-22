@@ -136,10 +136,11 @@ public class DashboardActivity extends AppCompatActivity implements NavigationVi
             drawer.closeDrawer(GravityCompat.START);
             return;
         }
-        if (this.doubleBackToExitPressedOnce) {
+        if (this.doubleBackToExitPressedOnce){
             super.onBackPressed();
             return;
         }
+    
         this.doubleBackToExitPressedOnce = true;
         Snackbar.make(findViewById(R.id.coordinatorLayout), "Please click BACK again to exit", 0).show();
         new Handler().postDelayed(new Runnable() {
