@@ -18,10 +18,7 @@ import com.akshay.smartquartz.Utility.Constant;
 
 import java.util.ArrayList;
 
-/**
- * An example full-screen activity that shows and hides the system UI (i.e.
- * status bar and navigation/system bar) with user interaction.
- */
+
 public class FullscreenClockActivity extends AppCompatActivity {
     Button btnclose;
     ImageView ImgClock;
