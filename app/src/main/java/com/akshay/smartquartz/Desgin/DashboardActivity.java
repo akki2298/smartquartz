@@ -52,6 +52,8 @@ public class DashboardActivity extends AppCompatActivity implements NavigationVi
 
         btnDimond=(Button)findViewById(R.id.dashbpard_btn_dimond);
         btnGod=(Button)findViewById(R.id.dashbpard_btn_god);
+
+        
         btnHeartShape=(Button)findViewById(R.id.dashbpard_btn_heart);
         btnPicture=(Button)findViewById(R.id.dashbpard_btn_picture);
         btnPremium=(Button)findViewById(R.id.dashbpard_btn_premium);
